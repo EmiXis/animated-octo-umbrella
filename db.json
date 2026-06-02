@@ -1,0 +1,14 @@
+{
+  "estudiantes": [
+    { "id": 1, "nombre": "Ana Pérez", "email": "ana@ejemplo.com" },
+    { "id": 2, "nombre": "Luis Soto", "email": "luis@ejemplo.com" }
+  ],
+  "cursos": [
+    { "id": 1, "nombre": "Bases de Datos", "creditos": 4 },
+    { "id": 2, "nombre": "Desarrollo Web", "creditos": 3 }
+  ],
+  "inscripciones": [
+    { "id": 1, "estudianteId": 1, "cursoId": 2, "semestre": "2026-1" },
+    { "id": 2, "estudianteId": 2, "cursoId": 1, "semestre": "2026-1" }
+  ]
+}
