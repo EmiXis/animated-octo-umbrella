@@ -1,14 +1,30 @@
 {
   "estudiantes": [
-    { "id": 1, "nombre": "Ana Pérez", "email": "ana@ejemplo.com" },
-    { "id": 2, "nombre": "Luis Soto", "email": "luis@ejemplo.com" }
+    {
+      "nombre": "John Doe",
+      "email": "johndoe@example.com",
+      "id": "zY0nT-NE5w4"
+    },
+    {
+      "nombre": "Johnathan Beale",
+      "email": "johnathanbeale@crm.com",
+      "id": "Ml1oEHOU5Rw"
+    }
   ],
   "cursos": [
-    { "id": 1, "nombre": "Bases de Datos", "creditos": 4 },
-    { "id": 2, "nombre": "Desarrollo Web", "creditos": 3 }
+    {
+      "nombre": "Desarrollo fronted",
+      "creditos": 10,
+      "id": "eabQbXVMyjc"
+    }
   ],
   "inscripciones": [
-    { "id": 1, "estudianteId": 1, "cursoId": 2, "semestre": "2026-1" },
-    { "id": 2, "estudianteId": 2, "cursoId": 1, "semestre": "2026-1" }
-  ]
+    {
+      "estudianteId": "Ml1oEHOU5Rw",
+      "cursoId": "eabQbXVMyjc",
+      "semestre": "1",
+      "id": "a7IHvjFbxEA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

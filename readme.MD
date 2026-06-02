@@ -1,5 +1,9 @@
 # Sistema de Gestión Académica (React + json-server)
 
+Integrantes de equipo:
+
+Emiliano Narciso Peralta Barrientos 190537
+
 Este proyecto resuelve la necesidad de **procesar información académica** mediante tres entidades relacionadas:
 
 - **Estudiantes**
@@ -7,7 +11,6 @@ Este proyecto resuelve la necesidad de **procesar información académica** medi
 - **Inscripciones**
 
 La interfaz en React implementa CRUD completo (crear, leer, actualizar y eliminar) para cada entidad.
-El backend se simula con `json-server` y los estilos se construyen con `w3css`.
 
 ## Requisitos
 
@@ -45,10 +48,4 @@ npm run dev
 
 - `npm run dev`: inicia la aplicación React
 - `npm run server`: inicia `json-server` con `db.json`
-- `npm run lint`: ejecuta ESLint
 - `npm run build`: compila para producción
-
-## Notas
-
-- Los datos iniciales están en `db.json`.
-- El trabajo puede desarrollarse en equipos de 1 a 3 personas.
