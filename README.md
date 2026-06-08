@@ -9,7 +9,7 @@ Este proyecto resuelve la necesidad de **procesar información académica** medi
 La interfaz en React implementa CRUD completo (crear, leer, actualizar y eliminar) para cada entidad.
 El backend se simula con `json-server` y los estilos se construyen con `w3css`.
 
-##Equipo
+## Equipo
 
 Emiliano Narciso Peralta Barrientos 190537
 
